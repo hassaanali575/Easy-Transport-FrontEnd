@@ -1,0 +1,55 @@
+.sidebarArea {
+    flex-shrink: 0;
+    width: 260px;
+    background-color: white;
+    
+  }
+  
+  .sidenav-bg:hover {
+    background-color: rgb(243, 243, 243);
+    border-radius: 0.3rem;
+  }
+  
+  @media (max-width: 992px) { 
+  
+    .sidebarArea {
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+      z-index: 1;
+      margin-left: -260px;
+      transition: 0.2s ease-in;
+    }
+    .sidebarArea.showSidebar {
+      margin-left: 0px;
+   }
+   }
+
+   .tableButton{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    height: 35px;
+    width: 105px;
+  }
+  .acceptedButton{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: white;
+    height: 45px;
+    width: 145px;
+  }
+ 
+  .scrollit {
+   overflow:scroll;
+   height:480px;
+ }
+ .userScrollit{
+   overflow:scroll;
+   height:300px;
+ }
+ /* .driverScrollit{
+  overflow:scroll;
+  height:650px;
+ } */
+ 

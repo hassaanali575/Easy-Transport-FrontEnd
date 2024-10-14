@@ -1,0 +1,55 @@
+.searchCard{
+  background: #fff;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 3px 5px #d6d6d6;
+  -moz-box-shadow: 0px 3px 5px #d6d6d6;
+  box-shadow: 0px 3px 5px #d6d6d6;
+  cursor: pointer;
+
+}
+  .effectCard{
+    border-radius: 30px;
+    cursor: pointer;
+    
+  }
+  .effectCard:hover{
+    transform: scale(1.02);
+    transition: all 0.5s ease;
+  }
+  .productsIMG{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  .productDetailsIMG{
+    border-radius: 30px;
+  }
+  
+  .aboutUSCard{
+    background: #fff;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+  }
+  
+  .cardTitle h3{
+    font-weight: 300;
+  }
+
+  .noData{
+    padding: 8em 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .GradientBorder {
+    max-width: 300px;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-width: 5px;
+    border-style: solid;
+    text-align: center;
+    border-image: linear-gradient(45deg, rgb(0, 99, 192), rgb(255, 0, 0)) 1;
+  }
+  
+  
